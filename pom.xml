@@ -60,9 +60,12 @@
   	
   	<repositories>
 	    <repository>
-			<id>oss.sonatype.org</id>
-			<name>OSS Sonatype Staging</name>
-			<url>https://oss.sonatype.org/content/groups/staging</url>
+			<id>oss-sonatype</id>
+			<name>oss-sonatype</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
 		</repository>
 	</repositories>
 
